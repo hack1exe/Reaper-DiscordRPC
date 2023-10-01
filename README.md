@@ -2,7 +2,8 @@
 Discord Rich Presence for REAPER DAW (Windows Only)
 
 # Installation
-1. Open Reaper Content directory ![S3o6qN8IOX](https://github.com/hack1exe/Reaper-DiscordRPC/assets/85732368/51e60b75-1fb7-4b46-be62-3e023291826d)
+1. Open Reaper Content directory 
+![S3o6qN8IOX](https://github.com/hack1exe/Reaper-DiscordRPC/assets/85732368/51e60b75-1fb7-4b46-be62-3e023291826d)
 2. Go to /Scripts/ directory
 3. Create "DiscordRPC" folder (whithout spaces)
 4. Move all files from this repository to folder ![hmuEXwBe0o](https://github.com/hack1exe/Reaper-DiscordRPC/assets/85732368/777d944c-e536-42d0-b88f-fe2d5b2cf02e)
