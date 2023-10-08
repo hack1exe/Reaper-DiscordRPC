@@ -1,5 +1,5 @@
 # Reaper-DiscordRPC BETA
-Discord Rich Presence for REAPER DAW (Windows & Mac OS Only)
+Discord Rich Presence for REAPER DAW (Windows & Mac OS x86_64 Only)
 
 # Installation
 1. Open Reaper Content directory 
