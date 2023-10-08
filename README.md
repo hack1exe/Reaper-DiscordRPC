@@ -1,5 +1,5 @@
 # Reaper-DiscordRPC BETA
-Discord Rich Presence for REAPER DAW (Windows Only)
+Discord Rich Presence for REAPER DAW (Windows & Mac OS Only)
 
 # Installation
 1. Open Reaper Content directory 
@@ -12,6 +12,6 @@ Discord Rich Presence for REAPER DAW (Windows Only)
 ![SkCX7CDsW7](https://github.com/hack1exe/Reaper-DiscordRPC/assets/85732368/b7baa8e5-965a-4eca-857e-6ac49502d1ff)
 7. Find "DiscordRPC.lua" and click Run ![7yeBP3hWYW](https://github.com/hack1exe/Reaper-DiscordRPC/assets/85732368/cf9b57be-3615-4b9b-b0f4-902cc6f46e14)
 8. You can bind this action to keyboard key.
-# This is a beta version of the script, in the future it will be possible to switch on/off, as well as support for MAC OS and Linux versions of REAPER. 
+# This is a beta version of the script, in the future it will be possible to switch on/off, as well as support for Linux versions of REAPER. 
 # For now, you will need to run this script manually each time!
 ![Discord_YeArwrncfW](https://github.com/hack1exe/Reaper-DiscordRPC/assets/85732368/2549b353-e4bf-4c68-9f58-c57e7e43a08c)
