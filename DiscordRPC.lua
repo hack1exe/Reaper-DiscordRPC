@@ -1,7 +1,9 @@
 opsys = reaper.GetOS()
 extension = "dll"  
-if opsys == "OSX64" or opsys == "macOS-arm64" then  extension = "dylib" elseif opsys == "Other" then  extension = "so" end
 
+if opsys == "OSX64" or opsys == "macOS-arm64" then  extension = "dylib" elseif opsys == "Win32" then extension = "dll" elseif opsys == "Win64" then extension = "dll" elseif opsys == "Other" then  extension = "so" end
+is64bit = ""
+if opsys == "Win64" then is64bit = "-64" end
 mav_bat_path = reaper.GetResourcePath() .. "/Scripts/DiscordRPC/"
 
 package.cpath = package.cpath .. ';' .. mav_bat_path .. '?.' .. extension
@@ -73,7 +75,7 @@ void Discord_Respond(const char* userid, int reply);
 void Discord_UpdateHandlers(DiscordEventHandlers* handlers);
 ]]
 
-local discordRPClib = cffi.load(mav_bat_path .. "discord-rpc-64.dll")
+local discordRPClib = cffi.load(mav_bat_path .. "libdiscord-rpc" .. is64bit .. "." .. extension)
 
 local discordRPC = {} -- module table
 
